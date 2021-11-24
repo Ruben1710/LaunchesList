@@ -1,0 +1,12 @@
+.LaunchesIdPage {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.LaunchesIdPage button{
+    margin-bottom: 30px;
+}
+.LaunchesIdPage li{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+}

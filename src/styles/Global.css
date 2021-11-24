@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+}
+a {
+    color: inherit !important;
+}
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+.title img {
+    width: 50px;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.error {
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
+
